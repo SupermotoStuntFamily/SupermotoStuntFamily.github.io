@@ -1,0 +1,68 @@
+body{
+	background: #fff url(images/dark.png);
+	margin: 0;
+}
+a{text-decoration: none;}
+
+/*Шапка сайта*/
+
+.header{
+	height: 100px;
+	width: 100%;
+	background: black;
+}
+.topmenu img{
+	width: 110px;
+	height: 100px;
+	float: left;
+}
+.topmenu a{
+	float: right;
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 100px;
+	color: #fff;
+}
+.topmenu a:hover{
+	color: grey;
+}
+
+.content{
+	width: 100%;
+	height: 1000px;
+}
+
+.footer{
+	width: 100%;
+	height: 200px;
+	background: black;
+	float: left;
+}
+.footer img{ 
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.footer_text{
+	float: left;
+	width: 100%;
+	height: 20px;
+}
+.footer_text a.bot_text{
+	float: left;
+	color: grey;
+	margin-left: 20.3%;
+	padding-top: 50px;
+}
+.footer a.bot_text:hover{
+	color: darkgrey;
+}
+.footer p{
+	text-align: center;
+	color: lightgrey;
+	float: right;
+	margin-right: 50%;
+	padding-top: 50px;
+}
